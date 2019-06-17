@@ -16,6 +16,7 @@
       app:layout_constraintHorizontal_bias="0.5"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.52"
       app:layout_constraintVertical_chainStyle="spread_inside"
       app:srcCompat="@mipmap/binary_tree" />
   <Button
@@ -29,7 +30,8 @@
       app:layout_constraintHorizontal_bias="0.5"
       app:layout_constraintHorizontal_chainStyle="spread"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="@+id/button2" />
+      app:layout_constraintTop_toTopOf="@+id/button2"
+      app:layout_constraintVertical_bias="1.0" />
   <Button
       android:id="@+id/button2"
       android:layout_width="wrap_content"

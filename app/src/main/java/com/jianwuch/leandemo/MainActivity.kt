@@ -12,7 +12,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
 
-val listData = listOf("Anim", "BinaryTraversing")
+val listData = listOf("Anim", "BinaryTraversing", "LanchModeEffectResult")
 
 class MainActivity : AppCompatActivity() {
 

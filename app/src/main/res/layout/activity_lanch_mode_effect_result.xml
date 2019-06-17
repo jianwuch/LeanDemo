@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanchModeEffectResultActivity">
+
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:gravity="center"
+      android:text="singleTop,singleInstance启动模式的Activity\n通过 startActivityForResult()启动别的Activity\n直接返回Activity.RESULT_CANCELED\n------出至android群英传"
+      android:textColor="#006064"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="32dp"
+      android:text="记住：这是谬论"
+      android:textColor="#B71C1C"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toTopOf="@+id/textView2"
+      app:layout_constraintEnd_toEndOf="@+id/textView2"
+      app:layout_constraintStart_toStartOf="@+id/textView2" />
+</android.support.constraint.ConstraintLayout>
